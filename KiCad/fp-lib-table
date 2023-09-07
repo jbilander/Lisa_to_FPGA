@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name LISA_to_FPGA)(type KiCad)(uri ${KIPRJMOD}/LISA_to_FPGA.pretty)(options "")(descr ""))
+)

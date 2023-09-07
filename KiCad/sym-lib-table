@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LISA_to_FPGA)(type Legacy)(uri ${KIPRJMOD}/LISA_to_FPGA.lib)(options "")(descr ""))
+)
