@@ -20,6 +20,10 @@ WORK IN PROGRESS, NOT TESTED YET!
 <a href="images/Lisa_to_FPGA_A1200_pic2.png">
 <img src="images/Lisa_to_FPGA_A1200_pic2.png" width="600" height="440">
 </a>
+<br />
+<a href="images/Lisa_to_FPGA_A1200_pic3.png">
+<img src="images/Lisa_to_FPGA_A1200_pic3.png" width="600" height="600">
+</a>
 
 ***
 
