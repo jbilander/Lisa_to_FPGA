@@ -1,5 +1,25 @@
 # Lisa_to_FPGA
-A small adapter-board that connects RGB and CLK/CSYNC-pins on Lisa to a FPGA-board via a 5V-tolerant buffer.
+A small adapter-board that connects 24-bit RGB, 14 MHz CLK, PIXELSW and SYNC-signals on Lisa to a FPGA-board via a 5V-tolerant buffer.
+
+Board is 37 x 55 mm 4-layers, hence should only be $2 for 5 PCBs at JLC.
+
+Stackup:<br />
+* Signal/GND
+* GND
+* 3V3
+* Signal/GND
+
+
+WORK IN PROGRESS, NOT TESTED YET!
+
+***
+
+<a href="images/Lisa_to_FPGA_A1200_pic1.png">
+<img src="images/Lisa_to_FPGA_A1200_pic1.png" width="600" height="440">
+</a>
+<a href="images/Lisa_to_FPGA_A1200_pic2.png">
+<img src="images/Lisa_to_FPGA_A1200_pic2.png" width="600" height="440">
+</a>
 
 ***
 
