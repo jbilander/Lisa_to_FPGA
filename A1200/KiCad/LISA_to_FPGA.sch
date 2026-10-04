@@ -679,29 +679,29 @@ $EndComp
 Text GLabel 8200 3900 2    50   Input ~ 0
 GND
 NoConn ~ 3500 1350
-Text GLabel 800  2150 0    50   Input ~ 0
+Text GLabel 750  2050 0    50   Output ~ 0
 RGA1
-Text GLabel 800  2050 0    50   Input ~ 0
+Text GLabel 750  1950 0    50   Output ~ 0
 RGA2
-Text GLabel 1200 1950 2    50   Input ~ 0
+Text GLabel 1150 1850 2    50   Output ~ 0
 RGA3
-Text GLabel 800  1850 0    50   Input ~ 0
+Text GLabel 750  1750 0    50   Output ~ 0
 RGA4
-Text GLabel 800  1550 0    50   Input ~ 0
+Text GLabel 750  1650 0    50   Output ~ 0
 RGA5
-Text GLabel 1200 1450 2    50   Input ~ 0
+Text GLabel 1150 1550 2    50   Output ~ 0
 RGA6
-Text GLabel 1200 1350 2    50   Input ~ 0
+Text GLabel 1150 1450 2    50   Output ~ 0
 RGA7
-Text GLabel 800  1250 0    50   Input ~ 0
+Text GLabel 750  1350 0    50   Output ~ 0
 RGA8
-Text GLabel 1700 2250 0    50   Input ~ 0
+Text GLabel 1150 2250 2    50   Output ~ 0
 D31
-Text GLabel 1700 2350 0    50   Input ~ 0
+Text GLabel 1150 2350 2    50   Output ~ 0
 D30
-Text GLabel 1700 2450 0    50   Input ~ 0
+Text GLabel 1150 2450 2    50   Output ~ 0
 D29
-Text GLabel 1700 2550 0    50   Input ~ 0
+Text GLabel 1150 2550 2    50   Output ~ 0
 D28
 Text GLabel 1700 2650 0    50   Input ~ 0
 D27
@@ -805,12 +805,12 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 6B113332
-P 1000 1450
-F 0 "RN1" V 700 1450 50  0000 C CNN
-F 1 "R_Pack04" V 950 800 50  0001 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1275 1450 50  0001 C CNN
-F 3 "~" H 1000 1450 50  0001 C CNN
-	1    1000 1450
+P 950 1550
+F 0 "RN1" V 900 1550 50  0000 C CNN
+F 1 "R_Pack04" V 900 900 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1225 1550 50  0001 C CNN
+F 3 "~" H 950 1550 50  0001 C CNN
+	1    950  1550
 	0    1    1    0   
 $EndComp
 Text GLabel 2550 5850 3    50   Output ~ 0
@@ -823,37 +823,23 @@ Text GLabel 4500 4800 0    50   Input ~ 0
 C14O_3V3
 Wire Wire Line
 	6650 2600 6650 2850
-Wire Wire Line
-	1700 1350 1500 1350
-Text Label 1500 1350 0    50   ~ 0
-RGA88
-Text Label 1500 1450 0    50   ~ 0
-RGA77
-Text Label 1500 1550 0    50   ~ 0
-RGA66
-Text Label 1500 1650 0    50   ~ 0
-RGA55
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 6B1A8BE3
-P 1000 2050
-F 0 "RN2" V 700 2050 50  0000 C CNN
-F 1 "R_Pack04" V 1000 1400 50  0001 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1275 2050 50  0001 C CNN
-F 3 "~" H 1000 2050 50  0001 C CNN
-	1    1000 2050
+P 950 1950
+F 0 "RN2" V 900 1950 50  0000 C CNN
+F 1 "R_Pack04" V 950 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1225 1950 50  0001 C CNN
+F 3 "~" H 950 1950 50  0001 C CNN
+	1    950  1950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1500 2050 1700 2050
-Text Label 1500 1750 0    50   ~ 0
-RGA44
-Text Label 1500 1850 0    50   ~ 0
-RGA33
-Text Label 1500 1950 0    50   ~ 0
-RGA22
-Text Label 1500 2050 0    50   ~ 0
-RGA11
+Text Label 1450 1750 0    50   ~ 0
+RGA04
+Text Label 1450 1950 0    50   ~ 0
+RGA02
+Text Label 1450 2050 0    50   ~ 0
+RGA01
 Text GLabel 4500 5400 0    50   Output ~ 0
 TX
 Text GLabel 4500 5500 0    50   Input ~ 0
@@ -1077,64 +1063,6 @@ $EndComp
 Connection ~ 9300 5500
 Wire Wire Line
 	9300 5500 9550 5500
-Wire Wire Line
-	1350 1550 1350 1700
-Wire Wire Line
-	1350 1700 500  1700
-Wire Wire Line
-	500  1700 500  1450
-Wire Wire Line
-	500  1450 800  1450
-Wire Wire Line
-	1350 1550 1700 1550
-Wire Wire Line
-	1200 1650 1200 1550
-Wire Wire Line
-	1200 1650 1700 1650
-Wire Wire Line
-	1700 1750 1350 1750
-Wire Wire Line
-	1350 1750 1350 1850
-Wire Wire Line
-	1350 1850 1200 1850
-Wire Wire Line
-	1200 1800 1200 1750
-Wire Wire Line
-	1200 1750 500  1750
-Wire Wire Line
-	1500 1800 1500 1850
-Wire Wire Line
-	1200 1800 1500 1800
-Wire Wire Line
-	1500 1850 1700 1850
-Wire Wire Line
-	1500 2050 1500 2150
-Wire Wire Line
-	1500 2150 1200 2150
-Wire Wire Line
-	1450 1450 1700 1450
-Wire Wire Line
-	1200 1250 1500 1250
-Wire Wire Line
-	1500 1250 1500 1350
-Wire Wire Line
-	1450 1450 1450 1150
-Wire Wire Line
-	1450 1150 500  1150
-Wire Wire Line
-	500  1150 500  1350
-Wire Wire Line
-	500  1350 800  1350
-Wire Wire Line
-	1700 1950 1450 1950
-Wire Wire Line
-	1450 1950 1450 2050
-Wire Wire Line
-	1450 2050 1200 2050
-Wire Wire Line
-	500  1750 500  1950
-Wire Wire Line
-	500  1950 800  1950
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 6ADA5BCA
@@ -1162,10 +1090,10 @@ Wire Wire Line
 Wire Wire Line
 	8600 4550 8800 4550
 $Comp
-L Device:R_Small R?
+L Device:R_Small R6
 U 1 1 6ADF2133
 P 8900 4650
-F 0 "R?" V 9000 4500 50  0000 L CNN
+F 0 "R6" V 9000 4500 50  0000 L CNN
 F 1 "27" V 9000 4650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8900 4650 50  0001 C CNN
 F 3 "~" H 8900 4650 50  0001 C CNN
@@ -1180,4 +1108,57 @@ Wire Wire Line
 	9000 4550 9150 4550
 Wire Wire Line
 	9000 4650 9150 4650
+$Comp
+L Device:R_Pack04 RN3
+U 1 1 6AE1A3D3
+P 950 2450
+F 0 "RN3" V 900 2450 50  0000 C CNN
+F 1 "R_Pack04" V 950 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1225 2450 50  0001 C CNN
+F 3 "~" H 950 2450 50  0001 C CNN
+	1    950  2450
+	0    1    1    0   
+$EndComp
+Text GLabel 750  1450 0    50   Input ~ 0
+RGA07
+Text GLabel 1700 1450 0    50   Output ~ 0
+RGA07
+Text GLabel 750  1550 0    50   Input ~ 0
+RGA06
+Text GLabel 1700 1550 0    50   Output ~ 0
+RGA06
+Wire Wire Line
+	1700 1350 1150 1350
+Wire Wire Line
+	1700 1650 1150 1650
+Text Label 1450 1350 0    50   ~ 0
+RGA08
+Text Label 1450 1650 0    50   ~ 0
+RGA05
+Text GLabel 750  1850 0    50   Input ~ 0
+RGA03
+Text GLabel 1700 1850 0    50   Output ~ 0
+RGA03
+Wire Wire Line
+	1700 1750 1150 1750
+Wire Wire Line
+	1700 1950 1150 1950
+Wire Wire Line
+	1700 2050 1150 2050
+Text GLabel 1700 2250 0    50   Output ~ 0
+D031
+Text GLabel 1700 2350 0    50   Output ~ 0
+D030
+Text GLabel 1700 2450 0    50   Output ~ 0
+D029
+Text GLabel 1700 2550 0    50   Output ~ 0
+D028
+Text GLabel 750  2250 0    50   Input ~ 0
+D031
+Text GLabel 750  2350 0    50   Input ~ 0
+D030
+Text GLabel 750  2450 0    50   Input ~ 0
+D029
+Text GLabel 750  2550 0    50   Input ~ 0
+D028
 $EndSCHEMATC
