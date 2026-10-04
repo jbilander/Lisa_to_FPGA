@@ -247,19 +247,6 @@ Text GLabel 10450 1500 0    50   Input ~ 0
 C28O_3V3
 Text GLabel 3500 4850 2    50   Output ~ 0
 C28O
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 6690A0D6
-P 9450 3800
-F 0 "J1" H 9530 3792 50  0000 L CNN
-F 1 "Conn_01x04" H 9530 3701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 9450 3800 50  0001 C CNN
-F 3 "~" H 9450 3800 50  0001 C CNN
-	1    9450 3800
-	1    0    0    -1  
-$EndComp
-Text GLabel 9250 3700 0    50   Input ~ 0
-GND
 NoConn ~ 8200 3000
 NoConn ~ 8200 2900
 NoConn ~ 8200 2700
@@ -399,10 +386,6 @@ Text GLabel 6050 2400 2    50   Output ~ 0
 G3_3V3
 Text GLabel 6050 900  2    50   Output ~ 0
 R0_3V3
-Text GLabel 9250 4000 0    50   Input ~ 0
-VSYNC
-Text GLabel 9250 3900 0    50   Input ~ 0
-HSYNC
 Text GLabel 6050 1400 2    50   Input ~ 0
 3V3
 Text GLabel 7000 2400 0    50   Input ~ 0
@@ -433,7 +416,7 @@ Text GLabel 8200 2400 2    50   Output ~ 0
 CSYNC_3V3
 Text GLabel 8200 2000 2    50   Output ~ 0
 B7_3V3
-Text GLabel 9250 3800 0    50   Input ~ 0
+Text GLabel 9050 3500 0    50   Input ~ 0
 CSYNC
 Text GLabel 8200 1800 2    50   Output ~ 0
 B5_3V3
@@ -1156,4 +1139,15 @@ Wire Wire Line
 	500  1750 500  1950
 Wire Wire Line
 	500  1950 800  1950
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 6ADA5BCA
+P 9250 3500
+F 0 "J1" H 9330 3542 50  0000 L CNN
+F 1 "Conn_01x01" H 9330 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 9250 3500 50  0001 C CNN
+F 3 "~" H 9250 3500 50  0001 C CNN
+	1    9250 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
