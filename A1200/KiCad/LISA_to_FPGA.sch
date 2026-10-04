@@ -930,9 +930,9 @@ Text GLabel 10450 2200 0    50   Input ~ 0
 TX
 Text GLabel 10450 2300 0    50   Output ~ 0
 RX
-Text GLabel 8600 4850 1    50   Input ~ 0
+Text GLabel 9150 4550 2    50   Input ~ 0
 USB_DP
-Text GLabel 8700 4850 1    50   Input ~ 0
+Text GLabel 9150 4650 2    50   Input ~ 0
 USB_DM
 Text GLabel 8300 5150 2    50   Input ~ 0
 3V3
@@ -1049,10 +1049,6 @@ Text GLabel 6300 3600 1    50   Input ~ 0
 Wire Wire Line
 	8200 5600 9050 5600
 Wire Wire Line
-	8600 5300 8600 4850
-Wire Wire Line
-	8700 4850 8700 5400
-Wire Wire Line
 	8200 5300 8600 5300
 Wire Wire Line
 	8200 5400 8700 5400
@@ -1150,4 +1146,38 @@ F 3 "~" H 9250 3500 50  0001 C CNN
 	1    9250 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 6ADD5018
+P 8900 4550
+F 0 "R5" V 8800 4400 50  0000 L CNN
+F 1 "27" V 8800 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8900 4550 50  0001 C CNN
+F 3 "~" H 8900 4550 50  0001 C CNN
+	1    8900 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 4550 8600 5300
+Wire Wire Line
+	8600 4550 8800 4550
+$Comp
+L Device:R_Small R?
+U 1 1 6ADF2133
+P 8900 4650
+F 0 "R?" V 9000 4500 50  0000 L CNN
+F 1 "27" V 9000 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8900 4650 50  0001 C CNN
+F 3 "~" H 8900 4650 50  0001 C CNN
+	1    8900 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 4650 8800 4650
+Wire Wire Line
+	8700 4650 8700 5400
+Wire Wire Line
+	9000 4550 9150 4550
+Wire Wire Line
+	9000 4650 9150 4650
 $EndSCHEMATC
