@@ -703,14 +703,12 @@ Text GLabel 1150 2450 2    50   Output ~ 0
 D29
 Text GLabel 1150 2550 2    50   Output ~ 0
 D28
-Text GLabel 1700 2650 0    50   Input ~ 0
-D27
-Text GLabel 1700 2750 0    50   Input ~ 0
-D26
-Text GLabel 1700 2850 0    50   Input ~ 0
-D25
-Text GLabel 1700 2950 0    50   Input ~ 0
-D24
+Text GLabel 1700 2750 0    50   Output ~ 0
+DQ26
+Text GLabel 1700 2850 0    50   Output ~ 0
+DQ25
+Text GLabel 1700 2950 0    50   Output ~ 0
+DQ24
 Text GLabel 1700 3050 0    50   Input ~ 0
 D23
 Text GLabel 1700 3150 0    50   Input ~ 0
@@ -1146,19 +1144,48 @@ Wire Wire Line
 Wire Wire Line
 	1700 2050 1150 2050
 Text GLabel 1700 2250 0    50   Output ~ 0
-D031
+DQ31
 Text GLabel 1700 2350 0    50   Output ~ 0
-D030
+DQ30
 Text GLabel 1700 2450 0    50   Output ~ 0
-D029
+DQ29
 Text GLabel 1700 2550 0    50   Output ~ 0
-D028
+DQ28
 Text GLabel 750  2250 0    50   Input ~ 0
-D031
+DQ31
 Text GLabel 750  2350 0    50   Input ~ 0
-D030
+DQ30
 Text GLabel 750  2450 0    50   Input ~ 0
-D029
+DQ29
 Text GLabel 750  2550 0    50   Input ~ 0
-D028
+DQ28
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 6AE6E351
+P 950 2850
+F 0 "RN4" V 900 2850 50  0000 C CNN
+F 1 "R_Pack04" V 950 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1225 2850 50  0001 C CNN
+F 3 "~" H 950 2850 50  0001 C CNN
+	1    950  2850
+	0    1    1    0   
+$EndComp
+Text GLabel 1700 2650 0    50   Output ~ 0
+DQ27
+Text GLabel 1150 2750 2    50   Output ~ 0
+D26
+Text GLabel 1150 2850 2    50   Output ~ 0
+D25
+Text GLabel 1150 2950 2    50   Output ~ 0
+D24
+Text GLabel 1150 2650 2    50   Output ~ 0
+D27
+Text GLabel 750  2650 0    50   Input ~ 0
+DQ27
+Text GLabel 750  2750 0    50   Input ~ 0
+DQ26
+Text GLabel 750  2850 0    50   Input ~ 0
+DQ25
+Text GLabel 750  2950 0    50   Input ~ 0
+DQ24
 $EndSCHEMATC
