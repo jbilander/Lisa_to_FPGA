@@ -1363,5 +1363,24 @@ F 3 "~" H 5650 7150 50  0001 C CNN
 $EndComp
 Connection ~ 5650 7250
 Wire Wire Line
-	5650 7250 6600 7250
+	5650 7250 5950 7250
+$Comp
+L Device:C_Small C20
+U 1 1 6B0FEB9C
+P 5950 7150
+F 0 "C20" H 6042 7196 50  0000 L CNN
+F 1 "0.1uF" H 6000 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5950 7150 50  0001 C CNN
+F 3 "~" H 5950 7150 50  0001 C CNN
+	1    5950 7150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 7250
+Wire Wire Line
+	5950 7250 6600 7250
+Wire Wire Line
+	5950 7050 5950 6900
+Wire Wire Line
+	5950 6900 5650 6900
+Connection ~ 5650 6900
 $EndSCHEMATC
