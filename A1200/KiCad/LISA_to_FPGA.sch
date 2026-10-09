@@ -449,8 +449,6 @@ R4
 Text GLabel 4850 1600 0    50   Input ~ 0
 R5
 Connection ~ 5150 7250
-Wire Wire Line
-	5400 7250 5150 7250
 Connection ~ 4850 7250
 Wire Wire Line
 	5150 7250 4850 7250
@@ -639,7 +637,7 @@ F 3 "~" H 1950 7150 50  0001 C CNN
 	1    1950 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 5400 7250 2    50   Output ~ 0
+Text GLabel 6550 7250 2    50   Output ~ 0
 3V3
 Connection ~ 2600 7250
 Wire Wire Line
@@ -1216,10 +1214,10 @@ D21
 Text GLabel 1150 3350 2    50   Output ~ 0
 D20
 $Comp
-L Device:R_Pack04 RN?
+L Device:R_Pack04 RN6
 U 1 1 6AFA09CC
 P 950 3650
-F 0 "RN?" V 900 3650 50  0000 C CNN
+F 0 "RN6" V 900 3650 50  0000 C CNN
 F 1 "R_Pack04" V 950 3000 50  0001 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1225 3650 50  0001 C CNN
 F 3 "~" H 950 3650 50  0001 C CNN
@@ -1242,4 +1240,44 @@ Text GLabel 750  3650 0    50   Input ~ 0
 DQ17
 Text GLabel 750  3750 0    50   Input ~ 0
 DQ16
+$Comp
+L Device:C_Small C14
+U 1 1 6AFE1386
+P 5450 7150
+F 0 "C14" H 5542 7196 50  0000 L CNN
+F 1 "0.1uF" H 5500 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5450 7150 50  0001 C CNN
+F 3 "~" H 5450 7150 50  0001 C CNN
+	1    5450 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 7050 5450 6900
+Wire Wire Line
+	5450 6900 5150 6900
+Connection ~ 5150 6900
+Wire Wire Line
+	5150 7250 5450 7250
+Wire Wire Line
+	6550 7250 5750 7250
+Connection ~ 5450 7250
+$Comp
+L Device:C_Small C15
+U 1 1 6AFF9749
+P 5750 7150
+F 0 "C15" H 5842 7196 50  0000 L CNN
+F 1 "0.1uF" H 5800 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5750 7150 50  0001 C CNN
+F 3 "~" H 5750 7150 50  0001 C CNN
+	1    5750 7150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 7250
+Wire Wire Line
+	5750 7250 5450 7250
+Wire Wire Line
+	5750 7050 5750 6900
+Wire Wire Line
+	5750 6900 5450 6900
+Connection ~ 5450 6900
 $EndSCHEMATC
