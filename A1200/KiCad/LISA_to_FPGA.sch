@@ -717,14 +717,14 @@ Text GLabel 1700 3250 0    50   Output ~ 0
 DQ21
 Text GLabel 1700 3350 0    50   Output ~ 0
 DQ20
-Text GLabel 1700 3450 0    50   Input ~ 0
-D19
-Text GLabel 1700 3550 0    50   Input ~ 0
-D18
-Text GLabel 1700 3650 0    50   Input ~ 0
-D17
-Text GLabel 1700 3750 0    50   Input ~ 0
-D16
+Text GLabel 1700 3450 0    50   Output ~ 0
+DQ19
+Text GLabel 1700 3550 0    50   Output ~ 0
+DQ18
+Text GLabel 1700 3650 0    50   Output ~ 0
+DQ17
+Text GLabel 1700 3750 0    50   Output ~ 0
+DQ16
 Text GLabel 8200 4300 2    50   Input ~ 0
 RGA1
 Text GLabel 8200 4200 2    50   Input ~ 0
@@ -1215,4 +1215,31 @@ Text GLabel 1150 3250 2    50   Output ~ 0
 D21
 Text GLabel 1150 3350 2    50   Output ~ 0
 D20
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6AFA09CC
+P 950 3650
+F 0 "RN?" V 900 3650 50  0000 C CNN
+F 1 "R_Pack04" V 950 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1225 3650 50  0001 C CNN
+F 3 "~" H 950 3650 50  0001 C CNN
+	1    950  3650
+	0    1    1    0   
+$EndComp
+Text GLabel 1150 3450 2    50   Output ~ 0
+D19
+Text GLabel 1150 3550 2    50   Output ~ 0
+D18
+Text GLabel 1150 3650 2    50   Output ~ 0
+D17
+Text GLabel 1150 3750 2    50   Output ~ 0
+D16
+Text GLabel 750  3450 0    50   Input ~ 0
+DQ19
+Text GLabel 750  3550 0    50   Input ~ 0
+DQ18
+Text GLabel 750  3650 0    50   Input ~ 0
+DQ17
+Text GLabel 750  3750 0    50   Input ~ 0
+DQ16
 $EndSCHEMATC
