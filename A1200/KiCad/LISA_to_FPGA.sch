@@ -1335,7 +1335,7 @@ Connection ~ 5350 6900
 Text GLabel 3100 7700 2    50   Output ~ 0
 1V1
 Wire Wire Line
-	3100 7700 2350 7700
+	3100 7700 2650 7700
 Wire Wire Line
 	1300 7550 1850 7550
 Wire Wire Line
@@ -1401,7 +1401,7 @@ Wire Wire Line
 	2350 7400 2350 7500
 Connection ~ 2350 7400
 Wire Wire Line
-	2350 7400 3100 7400
+	2350 7400 2650 7400
 $Comp
 L Device:C_Small C22
 U 1 1 6B154826
@@ -1448,4 +1448,23 @@ Wire Wire Line
 	5400 6200 5400 6400
 Text GLabel 3900 5800 0    50   Input ~ 0
 GND
+$Comp
+L Device:C_Small C?
+U 1 1 6B1BDCA0
+P 2650 7600
+F 0 "C?" H 2742 7646 50  0000 L CNN
+F 1 "0.1uF" H 2700 7750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2650 7600 50  0001 C CNN
+F 3 "~" H 2650 7600 50  0001 C CNN
+	1    2650 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 7700
+Wire Wire Line
+	2650 7700 2350 7700
+Wire Wire Line
+	2650 7400 2650 7500
+Connection ~ 2650 7400
+Wire Wire Line
+	2650 7400 3100 7400
 $EndSCHEMATC
