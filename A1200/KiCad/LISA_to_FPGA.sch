@@ -637,7 +637,7 @@ F 3 "~" H 950 7150 50  0001 C CNN
 	1    950  7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 7250 2    50   Output ~ 0
+Text GLabel 6700 7250 2    50   Output ~ 0
 3V3
 Connection ~ 1600 7250
 Wire Wire Line
@@ -1415,8 +1415,6 @@ F 3 "~" H 6250 7150 50  0001 C CNN
 $EndComp
 Connection ~ 6250 7250
 Wire Wire Line
-	6250 7250 6600 7250
-Wire Wire Line
 	6250 7050 6250 6900
 Wire Wire Line
 	6250 6900 5950 6900
@@ -1449,10 +1447,10 @@ Wire Wire Line
 Text GLabel 3900 5800 0    50   Input ~ 0
 GND
 $Comp
-L Device:C_Small C?
+L Device:C_Small C23
 U 1 1 6B1BDCA0
 P 2650 7600
-F 0 "C?" H 2742 7646 50  0000 L CNN
+F 0 "C23" H 2742 7646 50  0000 L CNN
 F 1 "0.1uF" H 2700 7750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2650 7600 50  0001 C CNN
 F 3 "~" H 2650 7600 50  0001 C CNN
@@ -1467,4 +1465,25 @@ Wire Wire Line
 Connection ~ 2650 7400
 Wire Wire Line
 	2650 7400 3100 7400
+Wire Wire Line
+	6250 7250 6550 7250
+$Comp
+L Device:C_Small C24
+U 1 1 6B1D725E
+P 6550 7150
+F 0 "C24" H 6642 7196 50  0000 L CNN
+F 1 "0.1uF" H 6600 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6550 7150 50  0001 C CNN
+F 3 "~" H 6550 7150 50  0001 C CNN
+	1    6550 7150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 7250
+Wire Wire Line
+	6550 7250 6700 7250
+Wire Wire Line
+	6550 7050 6550 6900
+Wire Wire Line
+	6550 6900 6250 6900
+Connection ~ 6250 6900
 $EndSCHEMATC
