@@ -1377,7 +1377,7 @@ F 3 "~" H 5950 7150 50  0001 C CNN
 $EndComp
 Connection ~ 5950 7250
 Wire Wire Line
-	5950 7250 6600 7250
+	5950 7250 6250 7250
 Wire Wire Line
 	5950 7050 5950 6900
 Wire Wire Line
@@ -1402,4 +1402,50 @@ Wire Wire Line
 Connection ~ 2350 7400
 Wire Wire Line
 	2350 7400 3100 7400
+$Comp
+L Device:C_Small C22
+U 1 1 6B154826
+P 6250 7150
+F 0 "C22" H 6342 7196 50  0000 L CNN
+F 1 "0.1uF" H 6300 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6250 7150 50  0001 C CNN
+F 3 "~" H 6250 7150 50  0001 C CNN
+	1    6250 7150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 7250
+Wire Wire Line
+	6250 7250 6600 7250
+Wire Wire Line
+	6250 7050 6250 6900
+Wire Wire Line
+	6250 6900 5950 6900
+Connection ~ 5950 6900
+Wire Wire Line
+	4500 5800 3900 5800
+Text Label 4000 5800 0    50   ~ 0
+STRAP0
+Text Label 5400 6350 0    50   ~ 0
+STRAP1
+$Comp
+L Device:R_Small R7
+U 1 1 6B1787D1
+P 5400 6500
+F 0 "R7" H 5459 6500 50  0000 L CNN
+F 1 "4k7" H 5200 6500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5400 6500 50  0001 C CNN
+F 3 "~" H 5400 6500 50  0001 C CNN
+	1    5400 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 6600 5400 6650
+Wire Wire Line
+	5400 6650 5200 6650
+Text GLabel 5200 6650 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5400 6200 5400 6400
+Text GLabel 3900 5800 0    50   Input ~ 0
+GND
 $EndSCHEMATC
