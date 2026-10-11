@@ -1486,4 +1486,29 @@ Wire Wire Line
 Wire Wire Line
 	6550 6900 6250 6900
 Connection ~ 6250 6900
+$Comp
+L Connector:USB_B_Micro J3
+U 1 1 6B218FB7
+P 900 5150
+F 0 "J3" H 957 5617 50  0000 C CNN
+F 1 "USB_B_Micro" H 957 5526 50  0000 C CNN
+F 2 "LISA_to_FPGA:101181940001LF" H 1050 5100 50  0001 C CNN
+F 3 "~" H 1050 5100 50  0001 C CNN
+	1    900  5150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1200 4950
+NoConn ~ 1200 5350
+Text GLabel 850  5600 3    50   Input ~ 0
+GND
+Wire Wire Line
+	800  5550 800  5600
+Wire Wire Line
+	900  5550 900  5600
+Wire Wire Line
+	800  5600 900  5600
+Text GLabel 1200 5150 2    50   Input ~ 0
+USB_DP
+Text GLabel 1200 5250 2    50   Input ~ 0
+USB_DM
 $EndSCHEMATC
