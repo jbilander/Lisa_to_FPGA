@@ -925,9 +925,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 5100 8300 5200
 NoConn ~ 4500 4900
-Wire Wire Line
-	4500 5300 3900 5300
-Text Label 3900 5300 0    50   ~ 0
+Text Label 4050 5300 0    50   ~ 0
 RUN
 Wire Wire Line
 	7100 6200 7100 6300
@@ -1524,4 +1522,57 @@ Text GLabel 9050 3200 0    50   BiDi ~ 0
 SWDIO
 Text GLabel 4500 5200 0    50   BiDi ~ 0
 SWDIO
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6B2EABBF
+P 3850 5300
+F 0 "SW1" H 3850 5585 50  0000 C CNN
+F 1 "SW_Push" H 3850 5494 50  0000 C CNN
+F 2 "LISA_to_FPGA:Sunrom_Tactile_Switch_3x4x2mm_SMD_2-Pin" H 3850 5500 50  0001 C CNN
+F 3 "~" H 3850 5500 50  0001 C CNN
+	1    3850 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5300 4200 5300
+Text GLabel 3650 5300 0    50   Input ~ 0
+GND
+$Comp
+L Device:R_Small R8
+U 1 1 6ACE19E8
+P 4050 5400
+F 0 "R8" H 4109 5400 50  0000 L CNN
+F 1 "4k7" H 4100 5500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4050 5400 50  0001 C CNN
+F 3 "~" H 4050 5400 50  0001 C CNN
+	1    4050 5400
+	-1   0    0    1   
+$EndComp
+Connection ~ 4050 5300
+Wire Wire Line
+	4050 5550 3850 5550
+Text GLabel 3850 5550 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	4050 5500 4050 5550
+$Comp
+L Device:C_Small C25
+U 1 1 6AD0AEDA
+P 4200 5400
+F 0 "C25" H 4250 5450 50  0000 L CNN
+F 1 "0.1uF" H 4100 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4200 5400 50  0001 C CNN
+F 3 "~" H 4200 5400 50  0001 C CNN
+	1    4200 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 5300
+Wire Wire Line
+	4200 5300 4500 5300
+Text GLabel 4150 5650 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4200 5650 4150 5650
+Wire Wire Line
+	4200 5500 4200 5650
 $EndSCHEMATC
