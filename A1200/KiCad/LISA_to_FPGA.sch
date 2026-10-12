@@ -926,14 +926,6 @@ Wire Wire Line
 	8300 5100 8300 5200
 NoConn ~ 4500 4900
 Wire Wire Line
-	3900 5100 4500 5100
-Wire Wire Line
-	4500 5200 3900 5200
-Text Label 3900 5100 0    50   ~ 0
-SWCLK
-Text Label 3900 5200 0    50   ~ 0
-SWDIO
-Wire Wire Line
 	4500 5300 3900 5300
 Text Label 3900 5300 0    50   ~ 0
 RUN
@@ -1511,4 +1503,25 @@ Text GLabel 1200 5150 2    50   Input ~ 0
 USB_DP
 Text GLabel 1200 5250 2    50   Input ~ 0
 USB_DM
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 6B2518C2
+P 9250 3100
+F 0 "J4" H 9330 3142 50  0000 L CNN
+F 1 "Conn_01x03" H 9330 3051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9250 3100 50  0001 C CNN
+F 3 "~" H 9250 3100 50  0001 C CNN
+	1    9250 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 3100 0    50   Input ~ 0
+GND
+Text GLabel 4500 5100 0    50   Input ~ 0
+SWCLK
+Text GLabel 9050 3000 0    50   Input ~ 0
+SWCLK
+Text GLabel 9050 3200 0    50   BiDi ~ 0
+SWDIO
+Text GLabel 4500 5200 0    50   BiDi ~ 0
+SWDIO
 $EndSCHEMATC
