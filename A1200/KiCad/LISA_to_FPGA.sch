@@ -416,7 +416,7 @@ Text GLabel 8200 2400 2    50   Output ~ 0
 CSYNC_3V3
 Text GLabel 8200 2000 2    50   Output ~ 0
 B7_3V3
-Text GLabel 9050 3500 0    50   Input ~ 0
+Text GLabel 9050 4000 0    50   Input ~ 0
 CSYNC
 Text GLabel 8200 1800 2    50   Output ~ 0
 B5_3V3
@@ -1052,12 +1052,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 6ADA5BCA
-P 9250 3500
-F 0 "J1" H 9330 3542 50  0000 L CNN
-F 1 "Conn_01x01" H 9330 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 9250 3500 50  0001 C CNN
-F 3 "~" H 9250 3500 50  0001 C CNN
-	1    9250 3500
+P 9250 4000
+F 0 "J1" H 9330 4042 50  0000 L CNN
+F 1 "Conn_01x01" H 9330 3951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 9250 4000 50  0001 C CNN
+F 3 "~" H 9250 4000 50  0001 C CNN
+	1    9250 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1413,27 +1413,23 @@ Wire Wire Line
 	4500 5800 3900 5800
 Text Label 4000 5800 0    50   ~ 0
 STRAP0
-Text Label 5400 6350 0    50   ~ 0
+Text Label 5400 6600 0    50   ~ 0
 STRAP1
 $Comp
 L Device:R_Small R7
 U 1 1 6B1787D1
-P 5400 6500
-F 0 "R7" H 5459 6500 50  0000 L CNN
-F 1 "4k7" H 5200 6500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5400 6500 50  0001 C CNN
-F 3 "~" H 5400 6500 50  0001 C CNN
-	1    5400 6500
+P 5400 6700
+F 0 "R7" H 5459 6700 50  0000 L CNN
+F 1 "4k7" H 5200 6700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5400 6700 50  0001 C CNN
+F 3 "~" H 5400 6700 50  0001 C CNN
+	1    5400 6700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5400 6600 5400 6650
-Wire Wire Line
-	5400 6650 5200 6650
-Text GLabel 5200 6650 0    50   Input ~ 0
+	5400 6800 5400 6850
+Text GLabel 5200 6800 0    50   Input ~ 0
 3V3
-Wire Wire Line
-	5400 6200 5400 6400
 Text GLabel 3900 5800 0    50   Input ~ 0
 GND
 $Comp
@@ -1504,21 +1500,21 @@ USB_DM
 $Comp
 L Connector_Generic:Conn_01x03 J4
 U 1 1 6B2518C2
-P 9250 3100
-F 0 "J4" H 9330 3142 50  0000 L CNN
-F 1 "Conn_01x03" H 9330 3051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9250 3100 50  0001 C CNN
-F 3 "~" H 9250 3100 50  0001 C CNN
-	1    9250 3100
+P 9250 3600
+F 0 "J4" H 9330 3642 50  0000 L CNN
+F 1 "Conn_01x03" H 9330 3551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9250 3600 50  0001 C CNN
+F 3 "~" H 9250 3600 50  0001 C CNN
+	1    9250 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 9050 3100 0    50   Input ~ 0
+Text GLabel 9050 3600 0    50   Input ~ 0
 GND
 Text GLabel 4500 5100 0    50   Input ~ 0
 SWCLK
-Text GLabel 9050 3000 0    50   Input ~ 0
+Text GLabel 9050 3500 0    50   Input ~ 0
 SWCLK
-Text GLabel 9050 3200 0    50   BiDi ~ 0
+Text GLabel 9050 3700 0    50   BiDi ~ 0
 SWDIO
 Text GLabel 4500 5200 0    50   BiDi ~ 0
 SWDIO
@@ -1575,4 +1571,35 @@ Wire Wire Line
 	4200 5650 4150 5650
 Wire Wire Line
 	4200 5500 4200 5650
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 6AD3F2A6
+P 9250 3200
+F 0 "J5" H 9330 3192 50  0000 L CNN
+F 1 "Conn_01x02" H 9330 3101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9250 3200 50  0001 C CNN
+F 3 "~" H 9250 3200 50  0001 C CNN
+	1    9250 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 3300 0    50   Input ~ 0
+KBCLK
+Text GLabel 9050 3200 0    50   Input ~ 0
+KBDATA
+Text GLabel 5500 6200 3    50   Input ~ 0
+KBCLK
+Wire Wire Line
+	5400 6850 5200 6850
+Wire Wire Line
+	5200 6850 5200 6800
+Wire Wire Line
+	5400 6200 5400 6600
+Text GLabel 5600 6200 3    50   Input ~ 0
+KBDATA
+Text GLabel 5900 6200 3    50   Input ~ 0
+BT1
+Text GLabel 6000 6200 3    50   Input ~ 0
+BT2
+Text GLabel 6100 6200 3    50   Input ~ 0
+BT3
 $EndSCHEMATC
