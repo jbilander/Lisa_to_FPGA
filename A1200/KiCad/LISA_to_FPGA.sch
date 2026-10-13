@@ -132,12 +132,6 @@ Text GLabel 10050 1600 0    50   Input ~ 0
 GND
 Wire Wire Line
 	10050 1600 10450 1600
-NoConn ~ 10450 5400
-NoConn ~ 10450 5200
-NoConn ~ 10450 5000
-NoConn ~ 10450 4900
-NoConn ~ 10450 5100
-NoConn ~ 10450 5300
 $Comp
 L LISA_to_FPGA:LISA U4
 U 1 1 65069ABA
@@ -1413,22 +1407,20 @@ Wire Wire Line
 	4500 5800 3900 5800
 Text Label 4000 5800 0    50   ~ 0
 STRAP0
-Text Label 5400 6600 0    50   ~ 0
+Text Label 5400 6500 2    50   ~ 0
 STRAP1
 $Comp
 L Device:R_Small R7
 U 1 1 6B1787D1
-P 5400 6700
-F 0 "R7" H 5459 6700 50  0000 L CNN
-F 1 "4k7" H 5200 6700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5400 6700 50  0001 C CNN
-F 3 "~" H 5400 6700 50  0001 C CNN
-	1    5400 6700
-	-1   0    0    1   
+P 5250 6600
+F 0 "R7" V 5150 6550 50  0000 L CNN
+F 1 "4k7" V 5200 6350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5250 6600 50  0001 C CNN
+F 3 "~" H 5250 6600 50  0001 C CNN
+	1    5250 6600
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5400 6800 5400 6850
-Text GLabel 5200 6800 0    50   Input ~ 0
+Text GLabel 5050 6600 0    50   Input ~ 0
 3V3
 Text GLabel 3900 5800 0    50   Input ~ 0
 GND
@@ -1589,10 +1581,6 @@ KBDATA
 Text GLabel 5500 6200 3    50   Input ~ 0
 KBCLK
 Wire Wire Line
-	5400 6850 5200 6850
-Wire Wire Line
-	5200 6850 5200 6800
-Wire Wire Line
 	5400 6200 5400 6600
 Text GLabel 5600 6200 3    50   Input ~ 0
 KBDATA
@@ -1602,4 +1590,29 @@ Text GLabel 6000 6200 3    50   Input ~ 0
 BT2
 Text GLabel 6100 6200 3    50   Input ~ 0
 BT3
+Text GLabel 10450 5000 0    50   Input ~ 0
+BT1
+Text GLabel 10450 5100 0    50   Input ~ 0
+BT2
+Text GLabel 10450 5200 0    50   Input ~ 0
+BT3
+Text GLabel 10450 4900 0    50   Input ~ 0
+GND
+Wire Wire Line
+	5350 6600 5400 6600
+Wire Wire Line
+	5150 6600 5050 6600
+NoConn ~ 5700 6200
+NoConn ~ 5800 6200
+NoConn ~ 6400 6200
+NoConn ~ 6500 6200
+NoConn ~ 6600 6200
+NoConn ~ 6700 6200
+NoConn ~ 6800 6200
+NoConn ~ 6900 6200
+NoConn ~ 7000 6200
+Text GLabel 10450 5300 0    50   Input ~ 0
+GND
+Text GLabel 10450 5400 0    50   Input ~ 0
+GND
 $EndSCHEMATC
