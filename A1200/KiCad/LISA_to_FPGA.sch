@@ -1574,9 +1574,9 @@ F 3 "~" H 9250 3200 50  0001 C CNN
 	1    9250 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9050 3300 0    50   Input ~ 0
-KBCLK
 Text GLabel 9050 3200 0    50   Input ~ 0
+KBCLK
+Text GLabel 9050 3300 0    50   Input ~ 0
 KBDATA
 Text GLabel 5500 6200 3    50   Input ~ 0
 KBCLK
