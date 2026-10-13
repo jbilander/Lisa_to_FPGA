@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 23)
-    (tracks 1758)
+    (tracks 1757)
     (zones 0)
     (modules 52)
     (nets 183)
@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.2794)
+    (last_trace_width 0.2032)
     (user_trace_width 0.127)
     (user_trace_width 0.1524)
     (user_trace_width 0.1778)
@@ -818,7 +818,7 @@
     (tags "capacitor handsolder")
     (path /6B1D725E)
     (attr smd)
-    (fp_text reference C24 (at -2.375 -0.375 270 unlocked) (layer B.SilkS)
+    (fp_text reference C21 (at -2.375 -0.375 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.43 180) (layer B.Fab) hide
@@ -854,7 +854,7 @@
     (tags "capacitor handsolder")
     (path /6B1BDCA0)
     (attr smd)
-    (fp_text reference C23 (at 0 1.225 270 unlocked) (layer B.SilkS)
+    (fp_text reference C24 (at 0 1.225 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.43 90) (layer B.Fab) hide
@@ -926,7 +926,7 @@
     (tags "capacitor handsolder")
     (path /6B154826)
     (attr smd)
-    (fp_text reference C22 (at -3.075 -0.025 270 unlocked) (layer B.SilkS)
+    (fp_text reference C20 (at -3.075 -0.025 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.43 90) (layer B.Fab) hide
@@ -962,7 +962,7 @@
     (tags "capacitor handsolder")
     (path /6B11C11D)
     (attr smd)
-    (fp_text reference C21 (at -3.075 0 270 unlocked) (layer B.SilkS)
+    (fp_text reference C23 (at -3.075 0 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.43 90) (layer B.Fab) hide
@@ -998,7 +998,7 @@
     (tags "capacitor handsolder")
     (path /6B0FEB9C)
     (attr smd)
-    (fp_text reference C20 (at -3.075 0 270 unlocked) (layer B.SilkS)
+    (fp_text reference C19 (at -3.075 0 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.43 90) (layer B.Fab) hide
@@ -1034,7 +1034,7 @@
     (tags "capacitor handsolder")
     (path /6B09652E)
     (attr smd)
-    (fp_text reference C19 (at -3.075 0.05 270 unlocked) (layer B.SilkS)
+    (fp_text reference C18 (at -3.075 0.05 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.43 90) (layer B.Fab) hide
@@ -1070,7 +1070,7 @@
     (tags "capacitor handsolder")
     (path /6B06EF37)
     (attr smd)
-    (fp_text reference C18 (at 0 -1.34 270 unlocked) (layer B.SilkS)
+    (fp_text reference C22 (at 0 -1.34 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.43 90) (layer B.Fab) hide
@@ -1591,7 +1591,7 @@
     (tags "capacitor handsolder")
     (path /6B381CD4)
     (attr smd)
-    (fp_text reference C13 (at 0.925 -1.525 270 unlocked) (layer B.SilkS)
+    (fp_text reference C5 (at 0.525 -1.55 270 unlocked) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 4.7uF (at 0 -1.68 90) (layer B.Fab) hide
@@ -1621,13 +1621,13 @@
     )
   )
 
-  (module Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder (layer B.Cu) (tedit 5F68FEEF) (tstamp 6AD6AE14)
+  (module Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder (layer B.Cu) (tedit 5F68FEEF) (tstamp 6AD13216)
     (at 204.237 88.058 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /6B36A10C)
     (attr smd)
-    (fp_text reference C12 (at -1.125 1.65) (layer B.SilkS)
+    (fp_text reference C4 (at -0.75 1.65) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 4.7uF (at 0 -1.68) (layer B.Fab) hide
@@ -1699,7 +1699,7 @@
     (tags "capacitor handsolder")
     (path /6B352E65)
     (attr smd)
-    (fp_text reference C11 (at 3.2 -0.025) (layer B.SilkS)
+    (fp_text reference C3 (at 2.825 0) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 4.7uF (at 0 -1.68) (layer B.Fab) hide
@@ -2623,7 +2623,7 @@
     (tags "capacitor handsolder")
     (path /668E28CB)
     (attr smd)
-    (fp_text reference C10 (at 0 1.4143) (layer F.SilkS)
+    (fp_text reference C13 (at 0 1.4143) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -2659,7 +2659,7 @@
     (tags "capacitor handsolder")
     (path /668E22A5)
     (attr smd)
-    (fp_text reference C9 (at 0.015 -1.4143) (layer F.SilkS)
+    (fp_text reference C12 (at 0.015 -1.4143) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -2695,7 +2695,7 @@
     (tags "capacitor handsolder")
     (path /668E1A49)
     (attr smd)
-    (fp_text reference C8 (at 0 1.4143) (layer F.SilkS)
+    (fp_text reference C11 (at 0 1.4143) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -2731,7 +2731,7 @@
     (tags "capacitor handsolder")
     (path /668E0E68)
     (attr smd)
-    (fp_text reference C7 (at 0 -1.4143) (layer F.SilkS)
+    (fp_text reference C10 (at 0 -1.4143) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -2767,7 +2767,7 @@
     (tags "capacitor handsolder")
     (path /62475F7C)
     (attr smd)
-    (fp_text reference C3 (at -0.01 -1.4072) (layer F.SilkS)
+    (fp_text reference C6 (at -0.01 -1.4072) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -2803,7 +2803,7 @@
     (tags "capacitor handsolder")
     (path /64F7D283)
     (attr smd)
-    (fp_text reference C6 (at 0 1.4072) (layer F.SilkS)
+    (fp_text reference C9 (at 0 1.4072) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -2839,7 +2839,7 @@
     (tags "capacitor handsolder")
     (path /624DE9B4)
     (attr smd)
-    (fp_text reference C5 (at -0.01 -1.4072) (layer F.SilkS)
+    (fp_text reference C8 (at -0.01 -1.4072) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -2875,7 +2875,7 @@
     (tags "capacitor handsolder")
     (path /624DDB45)
     (attr smd)
-    (fp_text reference C4 (at 0 -1.8428) (layer F.SilkS)
+    (fp_text reference C7 (at 0 -1.8428) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.43) (layer F.Fab) hide
@@ -4955,12 +4955,11 @@
   (via (at 205.387 80.058) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 181) (tstamp 6AD01020))
   (segment (start 205.7048 79.7402) (end 205.387 80.058) (width 0.2032) (layer F.Cu) (net 181))
   (segment (start 206.5048 79.7402) (end 205.7048 79.7402) (width 0.2032) (layer F.Cu) (net 181))
-  (segment (start 193.111998 88.533) (end 192.562 88.533) (width 0.2032) (layer 3V3) (net 181))
-  (segment (start 194.78379 86.861208) (end 193.111998 88.533) (width 0.2032) (layer 3V3) (net 181))
-  (segment (start 199.749238 83.961209) (end 196.849239 86.861208) (width 0.2032) (layer 3V3) (net 181))
-  (segment (start 203.345767 83.961209) (end 199.749238 83.961209) (width 0.2032) (layer 3V3) (net 181))
-  (segment (start 196.849239 86.861208) (end 194.78379 86.861208) (width 0.2032) (layer 3V3) (net 181))
+  (segment (start 194.658792 86.861208) (end 192.987 88.533) (width 0.2032) (layer 3V3) (net 181))
   (segment (start 205.387 81.919976) (end 203.345767 83.961209) (width 0.2032) (layer 3V3) (net 181))
+  (segment (start 196.849239 86.861208) (end 194.658792 86.861208) (width 0.2032) (layer 3V3) (net 181))
+  (segment (start 203.345767 83.961209) (end 199.749238 83.961209) (width 0.2032) (layer 3V3) (net 181))
+  (segment (start 199.749238 83.961209) (end 196.849239 86.861208) (width 0.2032) (layer 3V3) (net 181))
   (segment (start 205.387 80.058) (end 205.387 81.919976) (width 0.2032) (layer 3V3) (net 181))
   (via (at 207.637 80.2402) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 182) (tstamp 6ACFDD72))
   (via (at 191.887 88.783) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 182) (tstamp 6ACF52CE))
