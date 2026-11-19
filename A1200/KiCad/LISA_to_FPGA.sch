@@ -86,52 +86,52 @@ GND
 $Comp
 L Connector_Generic_MountingPin:Conn_01x40_MountingPin J2
 U 1 1 64E8ADCA
-P 10650 3400
-F 0 "J2" H 10730 3392 50  0000 L CNN
-F 1 "Conn_01x40" H 10730 3301 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal" H 10650 3400 50  0001 C CNN
-F 3 "~" H 10650 3400 50  0001 C CNN
-	1    10650 3400
+P 10800 2700
+F 0 "J2" H 10880 2692 50  0000 L CNN
+F 1 "Conn_01x40" H 10880 2601 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal" H 10800 2700 50  0001 C CNN
+F 3 "~" H 10800 2700 50  0001 C CNN
+	1    10800 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 10050 2400 0    50   Input ~ 0
+Text GLabel 10200 1700 0    50   Input ~ 0
 GND
-Text GLabel 10450 4400 0    50   Input ~ 0
+Text GLabel 10600 3700 0    50   Input ~ 0
 R4_3V3
-Text GLabel 10450 4300 0    50   Input ~ 0
+Text GLabel 10600 3600 0    50   Input ~ 0
 R5_3V3
-Text GLabel 10450 4200 0    50   Input ~ 0
+Text GLabel 10600 3500 0    50   Input ~ 0
 R6_3V3
-Text GLabel 10450 4100 0    50   Input ~ 0
+Text GLabel 10600 3400 0    50   Input ~ 0
 R7_3V3
-Text GLabel 10450 3200 0    50   Input ~ 0
+Text GLabel 10600 2500 0    50   Input ~ 0
 B0_3V3
-Text GLabel 10450 3100 0    50   Input ~ 0
+Text GLabel 10600 2400 0    50   Input ~ 0
 B1_3V3
-Text GLabel 10450 3000 0    50   Input ~ 0
+Text GLabel 10600 2300 0    50   Input ~ 0
 B2_3V3
-Text GLabel 10450 2900 0    50   Input ~ 0
+Text GLabel 10600 2200 0    50   Input ~ 0
 B3_3V3
-Text GLabel 10450 3700 0    50   Input ~ 0
+Text GLabel 10600 3000 0    50   Input ~ 0
 G3_3V3
-Text GLabel 10450 3800 0    50   Input ~ 0
+Text GLabel 10600 3100 0    50   Input ~ 0
 G2_3V3
-Text GLabel 10450 3900 0    50   Input ~ 0
+Text GLabel 10600 3200 0    50   Input ~ 0
 G1_3V3
-Text GLabel 10450 4000 0    50   Input ~ 0
+Text GLabel 10600 3300 0    50   Input ~ 0
 G0_3V3
 Wire Wire Line
-	10050 2400 10450 2400
-Text GLabel 10050 1800 0    50   Input ~ 0
+	10200 1700 10600 1700
+Text GLabel 10200 1100 0    50   Input ~ 0
 GND
 Wire Wire Line
-	10050 1800 10450 1800
-Text GLabel 10650 5600 3    50   Input ~ 0
+	10200 1100 10600 1100
+Text GLabel 10800 4900 3    50   Input ~ 0
 GND
-Text GLabel 10050 1600 0    50   Input ~ 0
+Text GLabel 10200 900  0    50   Input ~ 0
 GND
 Wire Wire Line
-	10050 1600 10450 1600
+	10200 900  10600 900 
 $Comp
 L LISA_to_FPGA:LISA U4
 U 1 1 65069ABA
@@ -179,29 +179,29 @@ Text GLabel 3500 2950 2    50   Output ~ 0
 G2
 Text GLabel 3500 1550 2    50   Output ~ 0
 R7
-Text GLabel 10450 4800 0    50   Input ~ 0
+Text GLabel 10600 4100 0    50   Input ~ 0
 R0_3V3
-Text GLabel 10450 4700 0    50   Input ~ 0
+Text GLabel 10600 4000 0    50   Input ~ 0
 R1_3V3
-Text GLabel 10450 4600 0    50   Input ~ 0
+Text GLabel 10600 3900 0    50   Input ~ 0
 R2_3V3
-Text GLabel 10450 4500 0    50   Input ~ 0
+Text GLabel 10600 3800 0    50   Input ~ 0
 R3_3V3
-Text GLabel 10450 2500 0    50   Input ~ 0
+Text GLabel 10600 1800 0    50   Input ~ 0
 B7_3V3
-Text GLabel 10450 2600 0    50   Input ~ 0
+Text GLabel 10600 1900 0    50   Input ~ 0
 B6_3V3
-Text GLabel 10450 2700 0    50   Input ~ 0
+Text GLabel 10600 2000 0    50   Input ~ 0
 B5_3V3
-Text GLabel 10450 2800 0    50   Input ~ 0
+Text GLabel 10600 2100 0    50   Input ~ 0
 B4_3V3
-Text GLabel 10450 3300 0    50   Input ~ 0
+Text GLabel 10600 2600 0    50   Input ~ 0
 G7_3V3
-Text GLabel 10450 3400 0    50   Input ~ 0
+Text GLabel 10600 2700 0    50   Input ~ 0
 G6_3V3
-Text GLabel 10450 3500 0    50   Input ~ 0
+Text GLabel 10600 2800 0    50   Input ~ 0
 G5_3V3
-Text GLabel 10450 3600 0    50   Input ~ 0
+Text GLabel 10600 2900 0    50   Input ~ 0
 G4_3V3
 NoConn ~ 3500 5050
 NoConn ~ 3500 4650
@@ -237,7 +237,7 @@ Text GLabel 3500 2450 2    50   Output ~ 0
 G7
 Text GLabel 3500 2550 2    50   Output ~ 0
 G6
-Text GLabel 10450 1500 0    50   Input ~ 0
+Text GLabel 10600 800  0    50   Input ~ 0
 C28O_3V3
 Text GLabel 3500 4850 2    50   Output ~ 0
 C28O
@@ -652,7 +652,7 @@ U 1 1 6B0BB965
 P 6350 4850
 F 0 "U5" V 6250 4850 50  0000 C CNN
 F 1 "RP2354B" V 6350 4850 50  0000 C CNN
-F 2 "LISA_to_FPGA:QFN40P1000X1000X90-81N-D" H 7550 6500 50  0001 L CNN
+F 2 "LISA_to_FPGA:QFN40P1000X1000X90-81N-D_handsolder" H 7550 6500 50  0001 L CNN
 F 3 "" H 7550 6400 50  0001 L CNN
 	1    6350 4850
 	0    1    1    0   
@@ -875,9 +875,9 @@ Wire Wire Line
 	7000 900  6550 900 
 Wire Wire Line
 	6550 900  6550 850 
-Text GLabel 10450 2100 0    50   Output ~ 0
+Text GLabel 10600 1400 0    50   Output ~ 0
 LINK_RET
-Text GLabel 10450 1700 0    50   Input ~ 0
+Text GLabel 10600 1000 0    50   Input ~ 0
 CSYNC_3V3
 Text GLabel 7000 2100 0    50   Input ~ 0
 LINK_D1
@@ -887,13 +887,13 @@ Text GLabel 7000 2300 0    50   Input ~ 0
 LINK_D0
 Text GLabel 8200 2300 2    50   Output ~ 0
 LINK_D0_BUF
-Text GLabel 10450 2000 0    50   Input ~ 0
+Text GLabel 10600 1300 0    50   Input ~ 0
 LINK_D1_BUF
-Text GLabel 10450 1900 0    50   Input ~ 0
+Text GLabel 10600 1200 0    50   Input ~ 0
 LINK_D0_BUF
-Text GLabel 10450 2200 0    50   Input ~ 0
+Text GLabel 10600 1500 0    50   Input ~ 0
 TX
-Text GLabel 10450 2300 0    50   Output ~ 0
+Text GLabel 10600 1600 0    50   Output ~ 0
 RX
 Text GLabel 9150 4550 2    50   Input ~ 0
 USB_DP
@@ -1393,8 +1393,8 @@ Wire Wire Line
 	6250 6900 5950 6900
 Connection ~ 5950 6900
 Wire Wire Line
-	4500 5800 3900 5800
-Text Label 4000 5800 0    50   ~ 0
+	4500 5800 4500 6400
+Text Label 4500 6300 1    50   ~ 0
 STRAP0
 Text Label 5400 6500 2    50   ~ 0
 STRAP1
@@ -1411,7 +1411,7 @@ F 3 "~" H 5250 6600 50  0001 C CNN
 $EndComp
 Text GLabel 5050 6600 0    50   Input ~ 0
 3V3
-Text GLabel 3900 5800 0    50   Input ~ 0
+Text GLabel 4500 6400 3    50   Input ~ 0
 GND
 $Comp
 L Device:C_Small C24
@@ -1461,7 +1461,6 @@ F 3 "~" H 1050 5100 50  0001 C CNN
 	1    900  5150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1200 4950
 NoConn ~ 1200 5350
 Text GLabel 850  5600 3    50   Input ~ 0
 GND
@@ -1576,13 +1575,13 @@ Text GLabel 6000 6200 3    50   Input ~ 0
 BT2
 Text GLabel 6100 6200 3    50   Input ~ 0
 BT3
-Text GLabel 10450 5000 0    50   Input ~ 0
+Text GLabel 10600 4300 0    50   Input ~ 0
 BT1
-Text GLabel 10450 5100 0    50   Input ~ 0
+Text GLabel 10600 4400 0    50   Input ~ 0
 BT2
-Text GLabel 10450 5200 0    50   Input ~ 0
+Text GLabel 10600 4500 0    50   Input ~ 0
 BT3
-Text GLabel 10450 4900 0    50   Input ~ 0
+Text GLabel 10600 4200 0    50   Input ~ 0
 GND
 Wire Wire Line
 	5350 6600 5400 6600
@@ -1597,9 +1596,9 @@ NoConn ~ 6700 6200
 NoConn ~ 6800 6200
 NoConn ~ 6900 6200
 NoConn ~ 7000 6200
-Text GLabel 10450 5300 0    50   Input ~ 0
+Text GLabel 10600 4600 0    50   Input ~ 0
 GND
-Text GLabel 10450 5400 0    50   Input ~ 0
+Text GLabel 10600 4700 0    50   Input ~ 0
 GND
 $Comp
 L Device:C_Small C8
@@ -1612,4 +1611,34 @@ F 3 "~" H 2650 7150 50  0001 C CNN
 	1    2650 7150
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4500 5600
+$Comp
+L Device:R_Small R9
+U 1 1 6BDF2AC7
+P 1300 4650
+F 0 "R9" H 1359 4650 50  0000 L CNN
+F 1 "10k" H 1100 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1300 4650 50  0001 C CNN
+F 3 "~" H 1300 4650 50  0001 C CNN
+	1    1300 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 4950 1300 4950
+Wire Wire Line
+	1300 4950 1300 4750
+Text Label 1300 4850 0    50   ~ 0
+VBUS
+Text GLabel 1300 4450 1    50   Output ~ 0
+VBUS_SENSE
+Text GLabel 4300 5800 0    50   Input ~ 0
+VBUS_SENSE
+Wire Wire Line
+	4500 5700 4400 5700
+Wire Wire Line
+	4400 5700 4400 5800
+Wire Wire Line
+	4400 5800 4300 5800
+Wire Wire Line
+	1300 4550 1300 4450
 $EndSCHEMATC
