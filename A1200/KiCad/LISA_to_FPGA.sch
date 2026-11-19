@@ -1641,4 +1641,6 @@ Wire Wire Line
 	4400 5800 4300 5800
 Wire Wire Line
 	1300 4550 1300 4450
+Text Label 6550 900  0    50   ~ 0
+C14M
 $EndSCHEMATC
